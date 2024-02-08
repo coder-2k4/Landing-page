@@ -1,0 +1,132 @@
+
+@keyframes margin-top {
+  from {
+    margin-top: -2%;
+  }
+
+  to {
+    margin-top: -20%;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Single Day', cursive; */
+  font-family: 'Antic Slab', serif;
+/* font-family: 'Gaegu', sans-serif; */
+/* font-family: 'Single Day', cursive; */
+/* font-family: 'Architects Daughter', cursive; */
+
+
+}
+body {
+    background: url(land2.jpg);
+    background-repeat: no-repeat;
+    background-color: lightgray
+    
+}
+.nav li{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+button{
+  color: white;
+  background:orangered;
+  width: 120px;
+  
+}
+button:hover{
+  background-color:white;
+  color:red;
+  
+}
+.navbar {
+   display: flex;
+   min-height: 80px;
+   justify-content: center;
+   margin-left: 580px;
+   width: 58%;
+   background-color: lightgrey;
+   border-bottom:2px solid lightgrey;
+  box-shadow: 0px 0px 10px 10px rgba(225, 225, 225, 0.6); 
+
+}
+
+.nav-items li:hover {
+  text-decoration: underline;
+  color:indianred;
+}
+.nav-items ul {
+   display: flex;
+   margin-right: -300px;
+  /* color: rgba(87, 0, 102, 1);*/
+    color: black;
+   font-weight: bold;
+
+}
+
+.nav-items li {
+   margin: 15px 5px 5px 18px;
+   list-style: none;
+   padding: 10px;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   font-size: 20px;
+}
+button{
+  height: 40px;
+  width: 100px;
+  border-radius: 18px;
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+  margin-left: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border: 2px solid orangered;
+}
+.text{
+  margin-top: 20px;
+  margin-left: 900px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.text1 {
+  margin-top: 20px;
+  margin-left: 900px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-size: 25px;
+  color:orangered;
+}
+.Quote{
+  margin-top: 120px;
+}
+.cart{
+  margin-left: 600px;
+   margin-top: -200px; 
+  transform: rotateZ(-15deg);
+  font-size: 250px;
+  color: indianred;
+  /* margin-top: 20%; */
+  animation: margin-top 2s ease-in-out;
+}
+.general{
+  margin-top: 20px;
+  margin-left: 900px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-size: 15px;
+  color: orangered;
+  font-weight: bold;
+}
+.order{
+  margin-top: 20px;
+  margin-left: 70%;
+  width:180px;
+}
